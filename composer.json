@@ -1,17 +1,14 @@
 {
-    "name": "vendor-name/find",
+    "name": "tokimikichika/find",
     "description": "Find library for parsing",
     "type": "library",
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Find\\": "src/"
+            "Tokimikichika\\Find\\": "src/"
         }
     },
     "scripts": {
-        "index": [
-            "@php src/index.php"
-        ],
         "cs-fix": "php-cs-fixer fix",
         "cs-check": "php-cs-fixer fix --dry-run --diff"
     },
